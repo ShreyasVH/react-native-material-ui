@@ -1,5 +1,5 @@
 import 'react-native-reanimated';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Buttons from "../src/containers/Buttons";
 import { StatusBar } from "expo-status-bar";
 

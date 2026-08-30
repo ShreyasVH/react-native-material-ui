@@ -1,5 +1,5 @@
 import {Text, View} from "react-native";
-import { Button } from "@react-native-material/core";
+import { Button } from 'react-native-paper';
 
 export default function TextButtons (props) {
   return (
@@ -11,9 +11,9 @@ export default function TextButtons (props) {
         </View>
 
       <View style={props.styles.buttonsContainer}>
-        <Button variant="text" color="primary" title="Button" />
-
-        <Button variant="text" color="secondary" title="Button" />
+          <Button>
+              Button
+          </Button>
       </View>
     </>
   );
