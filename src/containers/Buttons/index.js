@@ -1,9 +1,9 @@
 import TextButtons from './TextButtons';
 
-export default function Buttons () {
+export default function Buttons (props) {
   return (
     <>
-      <TextButtons />
+      <TextButtons styles={props.styles} />
     </>
   );
 }
