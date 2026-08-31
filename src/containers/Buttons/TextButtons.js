@@ -1,17 +1,19 @@
 import {Text, View} from "react-native";
-import { Button } from "@react-native-material/core";
+import { Button } from 'react-native-paper';
 
-export default function TextButtons () {
+export default function TextButtons (props) {
   return (
     <>
-      <Text>
-        Text:
-      </Text>
+        <View>
+            <Text>
+                Text:
+            </Text>
+        </View>
 
-      <View>
-        <Button variant="text" color="primary" title="Button" />
-
-        <Button variant="text" color="secondary" title="Button" />
+      <View style={props.styles.buttonsContainer}>
+          <Button>
+              Button
+          </Button>
       </View>
     </>
   );
